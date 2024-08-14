@@ -1,4 +1,4 @@
-onst prompt = require('prompt-sync')();
+const prompt = require('prompt-sync')();
 // require gravityFactors from "./gravityFactors.js"
 const gravityFactors = require('./gravityFactors.js');
 // create a function called calculateWeightOnPlanets
@@ -42,4 +42,4 @@ global.getUserWeight = getUserWeight;
 
 // make a comment at the bottom of the script
 // telling a user how to run the script from node
-// run in the terminal `node calculateWeight.js`
+// run in the terminal `node calculateWeight.js`}
