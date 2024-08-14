@@ -2,11 +2,6 @@ Toy story, it is based on inanimate toys that have free will and have the abilit
 The child Andy had a birthday and was given a toy he wanted soon becoming his favorite toy.
 His other favorite toy, a cowboy named Woody became jealous of the new toy "Buzz Lightyear"
 Woody wants Andy to himself but to do that he had to get rid of Buzz.
-<<<<<<< HEAD
-Only then after he pushed buzz out the window to end in him getting kidnapped, the same happened to him,
-
-=======
 Only then after he pushed buzz out the window to end in him getting kidnapped, the same happened to him.
 They get taken by a new child named Sid who treated toys terribly. They try to find a way out together.
->>>>>>> 9a1bff2457875886805aa15246b04e2787cd6e75
 
