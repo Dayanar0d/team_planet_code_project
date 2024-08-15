@@ -12,7 +12,7 @@ function showUserFactors(type, value) {
 
     }
 
-    switch[type] {
+    switch(type) {
         case "jump";
         measurement = "cm";
         break;
@@ -23,4 +23,5 @@ function showUserFactors(type, value) {
         measurement = "na";
     }
 
+    console.log()
 }

@@ -1,4 +1,4 @@
-const prompt = require("node-sync")();
+const prompt = require("prompt-sync")();
 
 const gravityFactors = require('./utils/earthGravityFactors.js');
 
@@ -12,11 +12,11 @@ function showUserFactors(type, value) {
 
     }
 
-    switch[type] {
-        case "jump";
+    switch(type) {
+        case "jump":
         measurement = "cm";
         break;
-        case "weight";
+        case "weight":
         measurement = "kg";
         break;
         default:
