@@ -16,8 +16,8 @@ function showUserFactors(type, value) {
         case "jump";
         measurement = "cm";
         break;
-        case "liquid";
-        measurement = "vol";
+        case "weight";
+        measurement = "kg";
         break;
         default:
         measurement = "na";
