@@ -23,7 +23,8 @@ function showUserFactors(type, value) {
         measurement = "na";
     }
 
-    console.log()
+    console.log(type)
 }
+console.log("eureka!");
 
 global.showUserFactors = showUserFactors;
