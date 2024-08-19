@@ -21,11 +21,11 @@ function showUserFactors(type, value) {
         case "jump":
         measurement = "cm";
         break;
-        // case "weight":
-        // measurement = "kg";
-        // break;
-        // default:
-        // measurement = "na";
+        case "weight":
+        measurement = "kg";
+        break;
+        default:
+        measurement = "na";
     }
 
     for (let planet in results) {
