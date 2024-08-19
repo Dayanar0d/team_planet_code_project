@@ -3,6 +3,19 @@ const prompt = require("prompt-sync")();
 const gravityFactors = require('./utils/earthGravityFactors.js');
 const alienFactors = require('./utils/alienGravityFactors.js');
 
+function getUserInput() {
+    let param1;
+    while(true){
+        param1 = prompt(">>");
+        break;
+        // console.log("enter height value!")
+        // for (let i=0; i < results.length -1; i++) 
+        // {if (factorType.trim().toLowerCase() === results[i])
+        // {match = true;break}}
+ 
+}
+
+
 function showUserFactors(type, value) {
 
     let results = [];
@@ -26,6 +39,7 @@ function showUserFactors(type, value) {
         break;
         default:
         measurement = "na";
+        break;
     }
 
     for (let planet in results) {
@@ -33,30 +47,30 @@ function showUserFactors(type, value) {
     }
     console.log(type)
 
-    
+    function getUserInput() {
+        console.log("enter a value('jump' or 'weight')");
+        const factorType = prompt (">> ");
+
+        console.log("enter value as a number");
+        const factorValue = prompt (">> ");
+
+        console.log("enter a height value('cm')");
+        const factorMeasurement = prompt (">> ");
+
+        console.log("enter a planet value");
+        const factorPlanet = prompt (">> ");
+    }
+    // while(true){
+    //     param1 = prompt(">>");
+    //     // console.log("enter height value!")
+    //     // for (let i=0; i < results.length -1; i++) 
+    //     // {if (factorType.trim().toLowerCase() === results[i])
+    //     // {match = true;break}}
+     
+    // }
+
     
     showUserFactors(type, value);
-}
-function getUserInput() {
-    console.log("enter a value('jump' or 'weight')");
-    const factorType = prompt (">> ");
-
-    console.log("enter value as a number");
-    const factorValue = prompt (">> ");
-
-    console.log("enter a height value('cm')");
-    const factorMeasurement = prompt (">> ");
-
-    console.log("enter a planet value");
-    const factorPlanet = prompt (">> ");
-}
-
-while(true){
-    console.log("enter height value!")
-    for (let i=0; i < results.length -1; i++) 
-    {if (factorType.trim().toLowerCase() === results[i])
-    {match = true;break}}
- 
 }
 console.log("eureka!");
 
